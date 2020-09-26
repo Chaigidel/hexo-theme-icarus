@@ -97,7 +97,7 @@ Profile.Cacheable = cacheComponent(Profile, 'widget.profile', props => {
 
     function getAvatar() {
         if (gravatar) {
-            return gravatrHelper(gravatar, 128);
+            return gravatrHelper(gravatar, 256);
         }
         if (avatar) {
             return url_for(avatar);
